@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    // GitHub Pages serves this for unknown paths. Send visitors back to the app root.
+    var base = location.pathname.split('/').slice(0, 2).join('/') + '/';
+    if (location.hostname.endsWith('github.io') === false) base = '/';
+    location.replace(base + '#/');
+  </script>
+</head>
+<body style="background:#eef3f9;color:#14243d;font-family:sans-serif;padding:2rem">
+  <a href="./" style="color:#2f6db3">Go to the Maths Past Papers</a>
+</body>
+</html>
